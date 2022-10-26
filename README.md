@@ -53,6 +53,4 @@ project ini adalah project untuk membangun web berstandar pada coffee shop
 [janjigacoffeenetlify](https://glorius-coffee.netlify.app/)
 
 # Contributor
-    ```
-    https://github.com/rivalalfalah
-    ```
+[contributor](https://github.com/rivalalfalah)
