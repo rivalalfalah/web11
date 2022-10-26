@@ -1,48 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
-</head>
-<body>
-    <aside><img class="image-side" src="./assets/robert-bye-95vx5QVl9x4-unsplash 2.jpg" alt="foods-on-the-table"></aside>
-    <main class="absolute">
-        <section class="title-page">
-            <img class ="image-coffee"src="./assets/coffee 3.png" alt="coffee">
-            <label class = "title-web " for="image">coffee shop</label>
-            <label class = "page">Sign Up</label>
-        </section>
-        <section class="register-form">
-            <label class="form">Email address :</label><br>
-            <input class = "input" type="email" placeholder="Enter your email address here"><br>
-            <label  class="form">Password :</label><br>
-            <input class = "input" type="password" placeholder="Enter your password here"><br>
-            <label  class="form">Phone number :</label><br>
-            <input class = "input" type="tel" placeholder="Enter you phone number here"><br>
-            <button class="sign-up-btn">Sign Up</button><br>
-            <button class="google-btn">Sign up with google</button><br>
-            <div class="already-account">Already have an account?</div>
-            <button class="login-here">Login here</button>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="header">
+        <span class="tittle-web">
+          <img src="./assets/coffee 3.png" alt="coffee" />
+          <label for="tittle" class="font">Coffee Shop</label>
+        </span>
+        <span class="nav-rev">
+          <a class="font url home-url" href="#">Home</a>
+          <a class="font url" href="http://127.0.0.1:5500/product.html"
+            >Product</a
+          >
+          <a class="font url" href="http://">Your chart</a>
+          <a class="font url" href="http://">History</a>
+        </span>
+        <span class="author-button">
+          <button
+            onclick="window.location.href=`http://127.0.0.1:5500/sign-up.html`"
+            class="login"
+          >
+            Login
+          </button>
+          <button
+            onclick="window.location.href=`http://127.0.0.1:5500/sign-in.html`"
+            class="sign-in"
+          >
+            Sign In
+          </button>
+        </span>
+      </nav>
+    </header>
+    <main>
+      <section class="top">
+        <div class="background">
+          <div class="opening">
+            <label class="start-your-text" for="top"
+              >Start Your Day with <br />
+              Coffee and Good Meals</label
+            >
+            <label class="detail-top" for="top"
+              >We provide high quality beans, good taste, and healthy
+              <br class="top" />
+              meals made by love just for you. Start your day with us
+              <br class="top" />
+              for a bigger smile!</label
+            ><br />
+            <button class="get-started">Get started</button>
+          </div>
+        </div>
+      </section>
+      <section class="middle">
+        <span class="image-top">
+          <img src="./assets/35744 1.png" alt="" />
+        </span>
+        <span class="side-image">
+          <label class="we-provide-text" for="cof"
+            >We Provide Good Coffee <br class="enter" />
+            and Healthy Meals</label
+          >
+          <br class="enter2" />
+          <label class="you-can-text" for="fee"
+            >You can explore the menu that we provide with fun and
+            <br class="enter" />
+            have their own taste and make your day better.</label
+          >
+        </span>
+        <div class="checklist">
+          <div>
+            <img src="./assets/checklist.png" alt="checklist" /><label
+              class="middle-font"
+              for="checklist"
+              >High Quality Beans</label
+            >
+          </div>
+          <div>
+            <img src="./assets/checklist.png" alt="checklist" /><label
+              class="middle-font"
+              for="checklist"
+              >Healthy meals, you can request the ingredients</label
+            >
+          </div>
+          <div>
+            <img src="./assets/checklist.png" alt="checklist" /><label
+              class="middle-font"
+              for="checklist"
+              >Chat with our staff to get better experience for ordering</label
+            >
+          </div>
+          <div>
+            <img src="./assets/checklist.png" alt="checklist" /><label
+              class="middle-font"
+              for="checklist"
+              >Free member card with a minimum purchase of IDR 200.000.</label
+            >
+          </div>
+        </div>
+        <div class="here-is-text">
+          <label class="font hyper" for="here">Here is People's Favorite</label
+          ><br class="enter2" />
+          <label class="font" for="lets choose"
+            >Let's choose and have a bit taste of poeple's favorite. It might be
+            yours too!</label
+          >
+        </div>
+      </section>
+      <section class="product-favorite">
+        <div class="favotite-product-center">
+          <span class="block1">
+            <img class="img-block" src="./assets/hazelnut-latte.png" alt="" />
+            <label class="name-favorite-product" for="hazelnut latte"
+              >Hazelnut latte</label
+            >
+            <div class="checklist-last">
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist 1"
+                  >Hazelnut syrup</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist 1"
+                  >Vanilla Whipped Cream</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist 1"
+                  >Ice / Hot</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist 1"
+                  >Sliced Banana on Top</label
+                >
+              </div>
+            </div>
+            <div class="price">IDR 25.000</div>
+            <button class="buy">SELECT</button>
+          </span>
+          <span class="block2">
+            <img class="img-block" src="./assets/pinky-promise.png" alt="" />
+            <label class="name-favorite-product" for="pinky promise"
+              >pinky promise</label
+            >
+            <div class="checklist-last">
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist2"
+                  >1 Shot of Coffee</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist2"
+                  >Vanilla Whipped Cream</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist2"
+                  >Chocolate Biscuits</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist2"
+                  >Strawberry Syrup</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist2"
+                  >Sliced strawberry on Top</label
+                >
+              </div>
+            </div>
+            <div class="price">IDR 25.000</div>
+            <button class="buy">SELECT</button>
+          </span>
+          <span class="block3">
+            <img class="img-block" src="./assets/chiken-wings.png" alt="" />
+            <label class="name-favorite-product" for="chiken wings"
+              >chiken wings</label
+            >
+            <div class="checklist-last">
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist3"
+                  >Wings</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist3"
+                  >Drum Sticks</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist3"
+                  >Mayonaise and Lemon</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist3"
+                  >Hot Fried</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist3"
+                  >Secret Recipe</label
+                >
+              </div>
+              <div>
+                <img src="./assets/checklist2.png" alt="" /><label
+                  for="checklist3"
+                  >Buy 1 Get 1 only for Dine in</label
+                >
+              </div>
+            </div>
+            <div class="price">IDR 25.000</div>
+            <button class="buy">SELECT</button>
+          </span>
+        </div>
+      </section>
+      <section class="bottom">
+        <div class="bottom-top">
+          <label
+            class="visit-our-text"
+            for="Visit Our Store in the Spot on the Map Below"
+            >Visit Our Store in the <br class="enter" />
+            Spot on the Map Below</label
+          ><br class="enter2" />
+          <label class="see-our-text" for="See our store"
+            >See our store in every city on the spot and spen your good day
+            there. See <br class="enter" />
+            you soon!</label
+          >
+        </div>
+        <div class="maps">
+          <img src="./assets/Huge Global.png" alt="" />
+        </div>
+        <div class="text-our-partner">
+          <label class="our-partner" for="our">Our partner</label>
+        </div>
+        <div class="our-partner-img">
+          <span class="all-partner-img">
+            <img class="img-partner" src="./assets/img_netflix.png" alt="" />
+            <img class="img-partner" src="./assets/img_reddit.png" alt="" />
+            <img class="img-partner" src="./assets/img_amazon.png" alt="" />
+            <img class="img-partner" src="./assets/img_discord.png" alt="" />
+            <img class="img-partner" src="./assets/img_spotify.png" alt="" />
+          </span>
+        </div>
+      </section>
+      <section class="last-content">
+        <div class="loved-by-text">
+          <label class="loved-by" for="Loved by Thousands of Happy Customer"
+            >Loved by Thousands of <br class="enter" />
+            Happy Customer</label
+          ><br class="enter2" />
+          <label class="these-are" for=""
+            >These are the stories of our customers who have visited us with
+            great <br class="enter" />
+            pleasure.</label
+          >
+        </div>
+        <div class="comment">
+          <span class="square1">
+            <div class="profile-comment">
+              <img class="img-comment" src="./assets/image 39.jpg" alt="" />
+              <label for="name">veronica</label>
+            </div>
+            <div class="comment-section">
+              "wow aku sangat bahagia karena telah meminum kopi ini dan bisa
+              bertmbah lega <br />
+              seketika aku merasa gembira sekali"
+            </div>
+          </span>
+          <span class="square2">
+            <div class="profile-comment">
+              <img class="img-comment" src="./assets/image 39.jpg" alt="" />
+              <label for="name">veronica</label>
+            </div>
+            <div class="comment-section">
+              "wow aku sangat bahagia karena telah meminum kopi ini dan bisa
+              bertmbah lega <br />
+              seketika aku merasa gembira sekali"
+            </div>
+          </span>
+          <span class="square3">
+            <div class="profile-comment">
+              <img class="img-comment" src="./assets/image 39.jpg" alt="" />
+              <label for="name">veronica</label>
+            </div>
+            <div class="comment-section">
+              "wow aku sangat bahagia karena telah meminum kopi ini dan bisa
+              bertmbah lega <br />
+              seketika aku merasa gembira sekali"
+            </div>
+          </span>
+        </div>
+        <div class="button-cursor">
+          <button class="previous"></button>
+          <img class="img-previous" src="./assets/previous.png" alt="">
+          <button class="next"></button>
+          <img class="img-next" src="./assets/next.png" alt="">
+        </div>
+        <div class="button3">
+          <button class="click"></button>
+          <button class="no-click"></button>
+          <button class="no-click"></button>
+        </div>
+      </section>
     </main>
+<article class="box1">
+  <span class="box1-1">
+    <span class="img-loc"><button class="button-loc"></button> <img class="center-img" src="./assets/human.png" alt=""></span>
+    <label class="upto" for="">90+</label>
+    <div class="stores">Staff'</div>
+  </span>
+  <span class="box1-2">
+    <span class="img-loc"><button class="button-loc"></button> <img class="center-img" src="./assets/location.png" alt=""></span>
+    <label class="upto" for="">30+</label>
+    <div class="stores">Stores</div>
+  </span>
+  <span class="box1-3">
+    <span class="img-loc"><button class="button-loc"></button> <img class="center-love" src="./assets/love.png" alt=""></span>
+    <label class="upto" for="">800+</label>
+    <div class="stores">Customers</div>
+  </span>
+</article>
     <footer>
-        <section class="footer-left">
-        <img src="./assets/coffee 3.png" alt="coffee">
-        <label class="title-web footer" for="image">Coffee Shop</label><br>
-        <label class="detail" for="detail">Coffee Shop is a store that sells some 
-            <br>good meals, and especially coffee.
-            <br>We provide high quality beans</label><br>
-        <button class="facebook"></button>
-        <button class="twitter"></button>
-        <button class="instagram"></button><br>
-        <label class="copyright" for="copyright">@2020CoffeeStore</label>
-    </section>
-    <section class="fotter-right">
-        <label for="product-list">Product</label>
-    </section>
+      <section class="checkpromo">
+        <span class="checkpromo-text">
+          <label class="promo-text-1" for="">Check our promo <br> today!</label><br>
+          <label class="promo-text-2" for="">Let's see the deals and pick yours!</label>
+      </span>
+      <button class="see-promo">See Promo</button>
+      </section>
+      <section class="footer-left">
+        <div class="img-footer">
+          <img src="./assets/coffee 3.png" alt="coffee" />
+          <label class="font" for="image">Coffee Shop</label>
+        </div>
+        <div class="detail-footer">
+          <label class="font" for="detail-footer"
+            >Coffee Shop is a store that sells some good <br />
+            meals, and especially coffee. We provide <br />
+            high quality beans</label
+          >
+        </div>
+        <div class="btn-footer">
+          <button class="instagram"></button>
+          <button class="twitter"></button>
+          <button class="facebook"></button>
+        </div>
+      </section>
+      <section class="footer-right">
+        <div class="footer-product">
+          <label class="font font-footer-up" for="footer-product">Product</label><br>
+          <a class="font footer-url" href="">Download</a><br>
+          <a class="font footer-url" href="">Pricing</a><br>
+          <a class="font footer-url" href="">Location</a><br>
+          <a class="font footer-url" href="">Countries</a><br>
+          <a class="font footer-url" href="">Blog</a>
+        </div>
+        <div class="footer-engage">
+          <label class="font font-footer-up" for="engage">Engage</label><br>
+          <a class="font footer-url" href="">Coffee shop ?</a><br>
+          <a class="font footer-url" href="">FAQ</a><br>
+          <a class="font footer-url" href="">About Us</a><br>
+          <a class="font footer-url" href="">Privacy Policy</a><br>
+          <a class="font footer-url" href="">Terms of Service</a><br>
+        </div>
+      </section>
     </footer>
-</body>
+  </body>
 </html>

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./signIn.css" />
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="./sign-up.css" />
 </head>
 <body>
     <aside><img class="image-side" src="./assets/robert-bye-95vx5QVl9x4-unsplash 2.jpg" alt="foods-on-the-table"></aside>
@@ -13,18 +13,19 @@
         <section class="title-page">
             <img class ="image-coffee"src="./assets/coffee 3.png" alt="coffee">
             <label class = "title-web " for="image">coffee shop</label>
-            <label class = "page">Sign In</label>
+            <label class = "page">Sign Up</label>
         </section>
         <section class="register-form">
             <label class="form">Email address :</label><br>
             <input class = "input" type="email" placeholder="Enter your email address here"><br>
             <label  class="form">Password :</label><br>
             <input class = "input" type="password" placeholder="Enter your password here"><br>
-            <a href="http://">Forgot password?</a><br>
-            <button class="Login-btn">Login</button><br>
-            <button class="google-btn">Login with google</button><br>
+            <label  class="form">Phone number :</label><br>
+            <input class = "input" type="tel" placeholder="Enter you phone number here"><br>
+            <button class="sign-up-btn">Sign Up</button><br>
+            <button class="google-btn">Sign up with google</button><br>
             <div class="already-account">Already have an account?</div>
-            <button class="signUp-here">Login here</button>
+            <button onclick="window.location.href=`http://127.0.0.1:5500/sign-in.html`" class="login-here">Login here</button>
         </section>
     </main>
     <footer>
@@ -39,8 +40,17 @@
         <button class="instagram"></button><br>
         <label class="copyright" for="copyright">@2020CoffeeStore</label>
     </section>
-    <section class="fotter-right">
-        <label for="product-list">Product</label>
+    <section class="footer-right">
+        <div><label for="product-list">Product</label> <br class="enter2">
+            <a class="url-font" href="">Download </a> <a class="url-font" href="">Pricing</a> <br class="enter2">
+            <a class="url-font" href="">Locations</a> <a class="url-font" href="">Countries</a> <br class="enter2">
+            <a class="url-font" href="">Blog</a></div>
+            <div class="engage">
+                <label for="engage">Engage</label> <br class="enter2">
+            <a class="url-font" href="">Coffe Shop ?  </a> <a class="url-font" href="">About us</a> <br class="enter3">
+            <a class="url-font" href="">FAQ</a> <a class="url-font" href="">Privacy Policy</a> <br class="enter3">
+            <a class="url-font" href="">Terms of Service</a></div>
+            </div>
     </section>
     </footer>
 </body>

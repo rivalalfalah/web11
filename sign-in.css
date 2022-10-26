@@ -27,8 +27,8 @@ main {
     height: 100%;
 }
 
-.sign-up-btn {
-    margin-top: 5px;
+.Login-btn {
+    margin-top: 15%;
     background: #FFBA33;
     border:#FFBA33;
     height: 7vh;
@@ -38,6 +38,7 @@ main {
     font-family: "rubik";
     font-size: small;
     font-weight: bold;
+    cursor: pointer;
 }
 .google-btn {
     background-color: white;
@@ -50,8 +51,9 @@ main {
     background-position: 73px 10px;
     background-repeat: no-repeat;
     padding-top: 10px;
+    cursor: pointer;
 }
-.login-here {
+.signUp-here {
     background-color: #6A4029;
     margin-top : 50px;
     border : #6A4029;
@@ -60,6 +62,7 @@ main {
     font-family : "rubik";
     border-radius: 15px;
     color: white; 
+    cursor: pointer;
 }
 
 .input {
@@ -84,22 +87,19 @@ main section.register-form{
 
 }
 .title-web {
+    position: absolute;
+    top:3%;
+    left: 3%;
     font-family: "rubik";
     font-size: medium;
 }
 .page {
-    position: relative;
+    position: absolute;
+    right: 5%;
+    top:3%;
     font-family: "rubik";
     font-size:larger;
     color: #6A4029;
-}
-
-.already-account {
-    margin-top: 20px;
-    font-family: "rubik";
-    font-size: smaller;
-    color: grey;
-    
 }
 
 .ht {
@@ -108,12 +108,9 @@ main section.register-form{
 }
 
 .detail {
-    display: inline-block;
-    margin-top: 25px;
     font-family: "rubik";
     font-size: medium;
     color: #4F5665;
-    line-height: 40px;
 }
 
 .facebook {
@@ -126,6 +123,7 @@ main section.register-form{
     border: #FFBA33;
     color: #6A4029;
     border-radius: 1000px;
+    cursor: pointer;
 }
 
 .twitter {
@@ -138,6 +136,7 @@ main section.register-form{
     border: #FFBA33;
     color: #6A4029;
     border-radius: 1000px;
+    cursor: pointer;
 
 }
 
@@ -151,6 +150,7 @@ main section.register-form{
     border: #FFBA33;
     color: #6A4029;
     border-radius: 1000px;
+    cursor: pointer;
 }
 
 footer{
@@ -162,17 +162,94 @@ footer{
 }
 
 .footer-left {
-    top: 15%;
-    left: 5%;
+    top: 0%;
+    left: 0%;
     position: absolute;
     width : 50%;
-    height: 85%;
+    height: 100%;
 }
 
 .copyright {
+    position: absolute;
+    top:45%;
+    left: 10%;
     font-family: "rubik";
     color: grey;
-    display: inline-block;
-    margin-top: 5%;
     font-size: large
+}
+
+.footer-right {
+    font-family: "rubik";
+    position: absolute;
+    top : 0%;
+    left: 50%;
+    width : 50%;
+    height:100% ;
+    
+}
+
+br.enter2 {
+    display: block;
+    content: "";
+    margin-bottom:10%;
+}
+
+br.enter3 {
+    display: block;
+    content: "";
+    margin-bottom:15%;
+}
+
+
+.engage {
+    position: absolute;
+    top: 40%;
+    display: block;
+}
+
+.right {
+    margin-left: 10%;
+}
+
+.url-font {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.forgot-password {
+    color: #6A4029;
+    font-family: "rubik";
+}
+
+.image-coffee {
+    position: absolute;
+    top: 2%;
+}
+.coffee-footer {
+    position: absolute;
+    top: 2%;
+    left:-4%
+}
+
+.img-footer {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.detail-footer {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+
+.btn-footer {
+    position: absolute;
+    top : 30%;
+    left: 10%;
+}
+
+.font-footer-new {
+    font-family: "rubik";
+    font-size: x-large;
 }

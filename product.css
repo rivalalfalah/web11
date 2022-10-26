@@ -20,7 +20,7 @@ header {
     width: 100%;
 }
 
-nav {
+nav.header {
     position: absolute;
     bottom: 0%;
     width: 100%;
@@ -34,14 +34,24 @@ nav {
 
 .nav-rev{
     position: absolute;
-    left: 45%;
+    left: 30%;
+    width: 50%;
     font-size: x-large;
+}
+.product-url {
+    color: #6A4029 !important;
 }
 .profile-pict {
     position: absolute;
-    right: 15%;
+    left:80%;
+    width: 30%;
+    height: 20%;
 }
-
+.favorite-product-url {
+    color: #6A4029 !important;
+    text-decoration: underline !important;
+    font-size: larger !important;
+}
 footer {
     position: absolute;
     left: 0%;
@@ -58,7 +68,7 @@ footer {
 .font.url {
     color: grey;
     text-decoration: none;
-    letter-spacing: 1%;
+    margin-left: 5%;
 }
 
 .footer-right {
@@ -120,6 +130,7 @@ br {
     border: #FFBA33;
     color: #6A4029;
     border-radius: 1000px;
+    cursor: pointer;
 }
 
 .twitter {
@@ -132,6 +143,7 @@ br {
     border: #FFBA33;
     color: #6A4029;
     border-radius: 1000px;
+    cursor: pointer;
 
 }
 
@@ -145,6 +157,7 @@ br {
     border: #FFBA33;
     color: #6A4029;
     border-radius: 1000px;
+    cursor: pointer;
 }
 
 aside{
@@ -152,7 +165,7 @@ aside{
     left: 0%;
     top : 15%;
     width: 35%;
-    height : 145%;
+    height : 135%;
     border-top-style:solid;
     border-color: #9F9F9F;
     border-width: thin;
@@ -163,7 +176,7 @@ main {
     top: 15%;
     right: 0%;
     width : 65%;
-    height: 145%;
+    height: 135%;
     border-top-style:solid ;
     border-left-style: solid ;
     border-color: #9F9F9F;
@@ -224,6 +237,7 @@ div.bottom-block {
     background-color: #6A4029;
     font-family: "rubik";
     border-radius: 20%;
+    cursor: pointer;
 }
 
 .promo-for-text {
@@ -235,7 +249,7 @@ div.bottom-block {
 }
 .update-cupon {
     position: absolute;
-    top:5%;
+    top:8%;
     left: 30%;
     display: block;
     text-align: center;
@@ -301,4 +315,251 @@ div.bottom-block {
     left: 25%;
     font-family: "poppinsL";
     font-size: medium;
+}
+
+nav.main {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 5%;
+    width: 100%;
+}
+.link {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: auto;
+    bottom: 0%;
+}
+
+.font-nav {
+    font-family: "rubik";
+    color: #4F5665;
+    text-decoration: none;
+    display: inline;
+    margin-left: 10%;
+}
+section.product-box{
+    position: absolute;
+    top : 5%;
+    width: 100%;
+    height: 95%;
+}
+
+.column1 {
+    position: absolute;
+    top: 10%;
+    width: 95%;
+    height: 25%;
+    display: flex;
+}
+
+.column2 {
+    position: absolute;
+    top: 35%;
+    width: 95%;
+    height: 25%; 
+    display: flex;
+}
+
+.column3 {
+    position: absolute;
+    top: 55%;
+    width: 95%;
+    height: 25%;
+    display: flex;
+}
+
+.column4 {
+    position: absolute;
+    top: 80%;
+    width: 95%;
+    height: 25%;
+    display: flex;
+}
+
+.box1 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box2 {
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box3 {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box4 {
+    position: absolute;
+    left: 75%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box5 {
+    position: absolute;
+    left: 0%;
+    top: 0;
+    width: 25%;
+    height:100%
+}
+
+.box6 {
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box7 {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box8{
+    position: absolute;
+    left: 75%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box9 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box10 {
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box11{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box12 {
+    position: absolute;
+    left: 75%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box13 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box14 {
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+.box15 {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.box16 {
+    position: absolute;
+    left: 75%;
+    top: 0%;
+    width: 25%;
+    height:100%
+}
+
+.square {
+    position: absolute;
+    top: 3%;
+    left:3%;
+    width:80%;
+    height: 80%;
+    box-shadow: 0px 30px 60px 0px #3939391A;
+
+}
+
+.img-product{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    border-radius: 5000%;
+}
+
+.name-product {
+    position: absolute;
+    left: 35%;
+    bottom:20%;
+    display: block;
+    text-align: center;
+    font-family: "rubik";
+}
+
+.price {
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+    font-family: "rubik";
+    color: #6A4029;
+}
+
+.search {
+    width: 2vw;
+    height:4vh;
+    background-image:url(./assets/search.png);
+    cursor: pointer;
+}
+.chat {
+    width: 2vw;
+    height: 4vh;
+    background-image: url(./assets/chat.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.profile-pict-header {
+    border-radius: 500%;
+    background-image: url(./assets/image\ 39.jpg);
+    width: 1.5vw;
+    height: 3vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
 }
