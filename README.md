@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div style="display: flex;
     justify-content: center;
     align-items: center;">
@@ -50,3 +51,15 @@
 # Contributor
 
 ![contributor] (https://github.com/rivalalfalah)
+=======
+# coffee shop
+
+## programing lenguage
+
+- HTML
+- CSS
+- BOOTSTRAP
+
+## screenshot
+
+>>>>>>> a8f3ab856e1ca9d5de9b244da2cf83af49cb257d
