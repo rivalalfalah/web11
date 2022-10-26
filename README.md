@@ -44,9 +44,6 @@
 ## DEPLOYED PROJECT
 [janjigacoffeenetlify](https://glorius-coffee.netlify.app/)
 
-# Netifly status
-![Netlify Status](https://api.netlify.com/api/v1/badges/b1894444-7094-408d-b077-734e2c6a358e/deploy-status)](https://app.netlify.com/sites/glorius-coffee/deploys)
-
 # Contributor
 
-![contributor] (https://github.com/rivalalfalah)
+![contributor](https://github.com/rivalalfalah)
