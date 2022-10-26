@@ -6,6 +6,9 @@
 
 </div>
 
+# Description project
+project ini adalah project untuk membangun web berstandar pada coffee shop 
+
 ## BUILT WITH
 
 ![HTML](https://img.shields.io/badge/html-18-brightgreen)
@@ -25,16 +28,21 @@
 
 4. On terminal, change directory to **Web11** then run 
     ```
-    $ npm start
+    $ run private server
     ```
 
 5. Enjoy the app!
 
 ## All page
+- homepage
 ![Home page](./screenshot/Screenshot%20(4).png)
+- product
 ![Product](./screenshot/Screenshot%20(5).png)
+- profile
 ![Profile](./screenshot/Screenshot%20(6).png)
+- sign-up
 ![Sign up](./screenshot/Screenshot%20(7).png)
+- login
 ![login](./screenshot/Screenshot%20(8).png)
 
 
@@ -45,5 +53,6 @@
 [janjigacoffeenetlify](https://glorius-coffee.netlify.app/)
 
 # Contributor
-
-![contributor](https://github.com/rivalalfalah)
+    ```
+https://github.com/rivalalfalah
+    ```
